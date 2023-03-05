@@ -1,0 +1,8 @@
+{% extends 'base.html'%}
+
+{% block content %}
+    {% for obj in page_obj %}
+        <h2>{{ obj }}</h2>
+    {% endfor %}
+{% endblock %}
+
